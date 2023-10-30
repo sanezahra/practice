@@ -1,0 +1,28 @@
+body{
+    background-color:azure;
+    border-width: 3px;
+    border-style: dotted;
+    padding: 2px;
+    margin:5px;
+    border-color: burlywood;
+
+}
+h2{
+    color: gray;
+    border-right: 3px solid coral;
+    padding: 5px;
+
+}
+h1{
+    text-align: center;
+    color: hsl(207, 100%, 25%);
+}
+#skills{
+    border: 2px;
+    border-style: double;
+}
+#sort{
+
+    border-bottom: 3px solid blue;
+
+}
