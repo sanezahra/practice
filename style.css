@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body{
     background-color:azure;
     border-width: 3px;
@@ -7,13 +9,12 @@ body{
     border-color: burlywood;
 
 }
-h2{
-    color: gray;
-    border-right: 3px solid coral;
-    padding: 5px;
 
-}
 h1{
+
+    font-family:'Muli', sans-serif;
+    font-weight: 400;
+    line-height: 1.58;
     text-align: center;
     color: hsl(207, 100%, 25%);
 }
@@ -26,3 +27,44 @@ h1{
     border-bottom: 3px solid blue;
 
 }
+article > p{
+    border-color: brown;
+    border-style: dotted;
+    border-top-color: coral;
+    border-left-color: azure;
+}
+
+#fix{
+    padding: 10px;
+    font-size: 10px;
+    background-color: bisque;
+    border-color: blueviolet;
+    border-style: solid;
+    position: fixed;
+    top: 0;
+}
+
+header p{
+    background-color: rgb(238, 187, 206);
+    padding: 30px;
+    font-size: larger;
+}
+h1 + p{
+    padding-left: 20px;
+}
+
+
+@media screen {
+   body{ font-size: 14px;}
+}
+
+@media print {
+    body { font-size: 10pt; }
+    }
+
+@media screen and (min-width: 900px) {
+      article {
+         padding: 1fr 3fr;
+         }
+         }
+
