@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    
+    padding: 5px;
+  
+}
 body{
     background-color:azure;
     border-width: 3px;
